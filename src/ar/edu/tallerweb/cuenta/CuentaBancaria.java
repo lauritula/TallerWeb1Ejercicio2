@@ -4,23 +4,20 @@ public class CuentaBancaria {
 //atributos
 	float saldo;
 //métodos
-public float depositarDinero (float saldo){
-	float deposito=0;
+public float depositarDinero (float saldo, float deposito){
 	float saldoNuevo;
 	saldoNuevo=saldo+deposito;
 	return saldoNuevo;
 }
-public float retirarDinero (float saldo){
-	float retiro=0;
+public float retirarDinero (float saldo, float retiro){
 	float saldoNuevo;
 	saldoNuevo=saldo-retiro;
 	return saldoNuevo;
-	
-	return saldo;
 }
 public CuentaBancaria (float saldo){
 	this.saldo= saldo;
 	}
+
 }
 
 
