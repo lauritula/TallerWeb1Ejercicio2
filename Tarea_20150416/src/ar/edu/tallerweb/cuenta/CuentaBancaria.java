@@ -14,8 +14,9 @@ public float retirarDinero (float saldo, float retiro){
 	saldoNuevo=saldo-retiro;
 	return saldoNuevo;
 }
-public CuentaBancaria (float saldo){
-	this.saldo= saldo;
+public CuentaBancaria (float saldo)
+
+{ this.saldo= saldo;
 	}
 
 }
