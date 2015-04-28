@@ -52,10 +52,10 @@ public class Disco {
 
 	 public double calcuarArea(){
 		 
-		 return this.areaExterna()-this.areaIntgerna();	 
+		 return this.areaExterna()-this.areaInterna();	 
 	 }
 	 
-	 private double areaIntgerna() {
+	 private double areaInterna() {
 		// TODO Auto-generated method stub
 		return 	Math.PI*Math.pow(this.radioInterior, 2);
 	}
